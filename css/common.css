@@ -2,5 +2,5 @@ header {height:75px; background-color: #006F84; border: 1px solid #253342; posit
 h1 {color: white; line-height: 75px; float: left;}
 
 .menu {float: left;}
-.menu li {float: left;}
+.menu li {float: left; list-style: none;}
 .menu a {line-height: 75px; color: white; padding: 0 15px; display: block;}
