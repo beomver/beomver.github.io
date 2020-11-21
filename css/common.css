@@ -1,0 +1,6 @@
+header {height:75px; background-color: #006F84; border: 1px solid #253342; position: fixed; width: 10px; z-index: 999; top: 0; left: 0;}
+h1 {color: white; line-height: 75px; float: left;}
+
+.menu {float: left;}
+.menu li {float: left;}
+.menu a {line-height: 75px; color: white; padding: 0 15px; display: block;}
