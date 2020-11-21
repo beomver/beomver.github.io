@@ -5,8 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="http://code.jquery.com/jquery.min.js"></script>
 </head>
 <body>
+	<script type="text/javascript">
+		var filter = "win16|win32|win64|mac|macintel"; 
+		
+		if ( navigator.platform ) { 
+			if ( filter.indexOf( navigator.platform.toLowerCase() ) < 0 ) { 
+				//mobile 
+				$("#isMobile").html('mobile 접속');
+			} else { 
+				//pc 
+				$("#isMobile").html('pc 접속');
+			} 
+		}
+	</script>
+	
+	<span id="isMobile"> </span>
 	<img src="/img/noimg.png" />
+	
 </body>
 </html>
