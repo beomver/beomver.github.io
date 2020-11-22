@@ -9,7 +9,18 @@
 
 <body>
 	<script type="text/javascript"> 
-		location.href="web/test.html"; 
+		var filter = "win16|win32|win64|mac|macintel"; 
+		
+		if ( navigator.platform ) { 
+			if ( filter.indexOf( navigator.platform.toLowerCase() ) < 0 ) { 
+				//mobile 
+				location.href="/mobile/home.html"; 
+			} else { 
+				//pc
+				location.href="/web/home.html"; 
+			} 
+		}
+		
 	</script>
     <!-- <h1>첫 깃허브페이지입니다</h1> -->
 </body>
