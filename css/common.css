@@ -1,7 +1,7 @@
 header {position: relative; width: 100%; background: #ffffff; height: 71px; border-bottom: 2px solid #000; z-index: 102;}
 h1 {color: white; line-height: 75px; float: left;}
 
-.menu {float: left;}
-.menu li {float: left; list-style: none; width: 100px;}
+.menu {float: left; margin: 0px;}
+.menu li {float: left; list-style: none; width: 100px; text-align: center;}
 /* .menu li:before {content:''; display:inline-block; position:absolute; top:27px; left:0; width:1px; height:15px; background-color:#e0e0e0;} */
 .menu a {line-height: 75px; color: #222; padding: 0 15px; display: block; text-decoration: none; font-weight: 700;}
