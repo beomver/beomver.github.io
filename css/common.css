@@ -1,6 +1,6 @@
 body {margin: 0px;}
 
-header {position: relative; width: 100%; background: #ffffff; height: 71px; border-bottom: 1px solid #000; z-index: 102; box-shadow: 0 1px 3px 0 rgba(0,0,0,.12);}
+header {position: relative; width: 100%; background: #fff; height: 71px; border-bottom: 1px solid #CC99FF; z-index: 102; box-shadow: 0 1px 3px 0 rgba(0,0,0,.12);}
 header:hover {box-shadow: 0 2px 10px 0 rgba(0,0,0,.1);}
 h1 {color: white; line-height: 75px; float: left;}
 
