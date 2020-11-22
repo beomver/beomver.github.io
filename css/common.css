@@ -1,6 +1,6 @@
 body {margin: 0px;}
 
-header {position: relative; width: 100%; background: #ffffff; height: 71px; border-bottom: 2px solid #000; z-index: 102;}
+header {position: relative; width: 100%; background: #ffffff; height: 71px; /*border-bottom: 2px solid #000;*/ z-index: 102; box-shadow: 0 1px 3px 0 rgba(0,0,0,.12);}
 h1 {color: white; line-height: 75px; float: left;}
 
 .menu {float: left; margin: 0px;}
