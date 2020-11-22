@@ -3,8 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 	
 	<link rel="stylesheet" type="text/css" href="/css/common.css">
@@ -21,21 +20,10 @@
 			</nav>
 		</div>
 	</header>
-	<span id="isMobile"> </span>
 	<img src="/img/noimg.png" />
 	
 	<script type="text/javascript">
-		var filter = "win16|win32|win64|mac|macintel"; 
 		
-		if ( navigator.platform ) { 
-			if ( filter.indexOf( navigator.platform.toLowerCase() ) < 0 ) { 
-				//mobile 
-				$("#isMobile").html('mobile 접속');
-			} else { 
-				//pc 
-				$("#isMobile").html('pc 접속');
-			} 
-		}
 	</script>
 </body>
 </html>
